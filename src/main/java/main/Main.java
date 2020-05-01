@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         String testSuite = args[0];
         List<String> suiteFiles = new ArrayList<String>();
+        // String testSuite = "sanity";
         suiteFiles.add("./suites/" + testSuite + ".xml");
 
         runner.setTestSuites(suiteFiles);
