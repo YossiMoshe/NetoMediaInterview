@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+	
+	<!--  URL -->
+	<URL>https://www.google.com/</URL>
+	
+	<!--  Browser -->
+	<BrowserType>chrome</BrowserType>
+	<ChromeDriverPath>./webdrivers/chromedriver.exe</ChromeDriverPath>
+	<FFDriverPath>./webdrivers/geckodriver.exe</FFDriverPath>
+
+	<!--  Reports -->
+	<ReportFilePath>C:/AutomationReports/Reports/</ReportFilePath>
+	<ReportFileName>AutomationReport</ReportFileName>
+
+</Configuration>
